@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.dflex-column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -87,8 +93,6 @@ ul {
 /* END ANIMATION */
 .intro {
   background-color: #f7f7f7;
-  display: flex;
-  flex-direction: column;
   padding: 0 24px;
 }
 
@@ -119,9 +123,6 @@ h1 {
 main {
   background-color: #262932;
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  padding: 24px;
 }
 
 .white-title {
@@ -149,15 +150,29 @@ main {
   gap: 24px;
 }
 
+.performers-and-pieces img {
+  border: 2px solid #b1b1b1;
+}
+
+.img-container img {
+  width: 100%;
+}
+
 .program li img {
-  width: 15%;
+  max-width: 15%;
 }
 
 .program li h3 {
+  text-align: center;
   font-size: 16px;
   font-weight: 900;
   width: 15%;
   color: #ec5242;
+}
+
+.img-container p {
+  color: #fff;
+  font-size: 25px;
 }
 
 .program li p {
@@ -225,4 +240,46 @@ main a {
   padding: 12px;
   background-color: #fff;
   cursor: pointer;
+}
+
+.img-container h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.img-container {
+  background-image: linear-gradient(0deg, rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("img/concert1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  margin: 0 12px;
+  justify-content: center;
+}
+
+.img2 {
+  background-image: linear-gradient(0deg, rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("img/concert2.jpg");
+}
+
+.past-concerts {
+  border-top: 1px solid #b1b1b1;
+  padding: 48px 0;
+}
+
+#partner {
+  color: white;
+}
+
+.partner {
+  background-color: #545454;
+  color: #b1b1b1;
+  padding: 24px;
+}
+
+.partner ul {
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 40px;
 }
