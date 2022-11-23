@@ -2,15 +2,15 @@
 
 # Hello Microverse
 
-> This project is the main page of a portfolio in mobile version first.
+> This project is a website for the Chopin concerts, perform by a lot of professional pianist.
 
 ## Built With
 
-- html, css
+- html, css and javaScript
 
 ## Live Demo
 
-[Live Demo Link](https://shinhyobelok.github.io/Portfolio-setup-and-mobile-first/)
+[Live Demo Link]()
 
 ## Authors
 
@@ -22,7 +22,7 @@
 
 ## Loom walkthrough
 
-- Loom: [Video](https://www.loom.com/share/cde4b01575864848a53fce6cfddafeb3)
+- Loom: [Video]()
 
 ## 🤝 Contributing
 
