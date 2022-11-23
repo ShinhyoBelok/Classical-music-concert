@@ -99,8 +99,8 @@ function homePage() {
       performers.innerHTML += performersPresentation;
     }
   }
-  function defaultDisplay(screen) {
-    if (screen.width >= 768) {
+  function defaultDisplay() {
+    if (window.screen.width >= 768) {
       diplayPerformers(0);
       closeMenu();
     } else {
