@@ -48,6 +48,7 @@ ul {
   height: 50px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  margin-left: 24px;
 }
 
 .menu-btn__burger {
@@ -92,6 +93,7 @@ ul {
 
 /* END ANIMATION */
 .intro {
+  margin-top: 54px;
   background-color: #f7f7f7;
   padding: 0 24px;
 }
@@ -103,10 +105,14 @@ ul {
 }
 
 h1 {
-  color: #ec5242;
+  background-image: url('img/orange_fall-wallpaper-2880x1800.jpg');
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
   font-weight: 900;
   align-self: flex-start;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .detail {
@@ -150,12 +156,14 @@ main {
   gap: 24px;
 }
 
-.performers-and-pieces img {
-  border: 2px solid #b1b1b1;
-}
-
 .img-container img {
   width: 100%;
+}
+
+.logo img {
+  border: 1px solid #b1b1b1;
+  align-self: center;
+  width: 60%;
 }
 
 .program li img {
@@ -255,6 +263,8 @@ main a {
   height: 350px;
   margin: 0 12px;
   justify-content: center;
+  align-self: center;
+  width: 70%;
 }
 
 .img2 {
@@ -282,4 +292,140 @@ main a {
   justify-content: center;
   flex-wrap: wrap;
   font-size: 40px;
+}
+
+.menu-desktop {
+  display: none;
+}
+
+.desktop-mode {
+  display: none;
+}
+
+.menu-d-items a {
+  list-style: none;
+  text-decoration: none;
+  color: #545454;
+  transition: 0.3s ease;
+  font-size: 20px;
+}
+
+.menu-d-items a:hover {
+  color: #fc2a12;
+}
+
+.item {
+  display: flex;
+  padding: 24px;
+  width: 100vw;
+  align-items: center;
+  position: fixed;
+  top: 45px;
+  gap: 40px;
+  background-color: white;
+  left: -150%;
+  right: 10px;
+  margin-bottom: 0;
+}
+
+.active-menu {
+  flex-direction: column;
+  transition: 1s;
+  left: 0;
+}
+
+.menu {
+  background-color: white;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+.program li:hover {
+  border: 2px solid white;
+}
+
+.menu-d-items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.moveUp {
+  position: relative;
+  top: -70px;
+}
+
+@media (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+
+  .menu-desktop {
+    display: flex;
+  }
+
+  .menu-d-items a {
+    list-style: none;
+    text-decoration: none;
+    color: #545454;
+    transition: 0.3s ease;
+    z-index: 1;
+  }
+
+  .menu-logo img {
+    width: 130px;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .item {
+    flex-direction: row;
+    justify-content: end;
+    top: 0;
+    background-color: unset;
+    left: 0;
+    transition: 0s;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .program li h3 {
+    width: auto;
+  }
+
+  #more {
+    display: none !important;
+  }
+
+  .performers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .performers li {
+    width: 46%;
+  }
+
+  .desktop-mode {
+    display: flex;
+  }
+
+  .mobile-mode {
+    display: none;
+  }
 }
