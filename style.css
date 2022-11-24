@@ -174,7 +174,7 @@ main {
   text-align: center;
   font-size: 16px;
   font-weight: 900;
-  width: 15%;
+  width: 95px;
   color: #ec5242;
 }
 
@@ -342,7 +342,7 @@ main a {
 }
 
 .program li:hover {
-  border: 2px solid white;
+  border-color: white;
 }
 
 .menu-d-items {
@@ -401,6 +401,7 @@ main a {
     align-items: center;
     text-align: center;
     box-sizing: border-box;
+    border: 2px solid #3c3f47;
   }
 
   .program li h3 {
@@ -427,5 +428,9 @@ main a {
 
   .mobile-mode {
     display: none;
+  }
+
+  .past-concerts-img {
+    flex-direction: row;
   }
 }

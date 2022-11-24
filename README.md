@@ -24,6 +24,10 @@
 
 - Loom: [Video](https://www.loom.com/share/7dd991911aae4207bddd71d1b42e2043)
 
+## 🙏 Acknowledgments
+
+I would like to thank [Cindy Shin in Behance](https://www.behance.net/adagio07) for the original design.
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
