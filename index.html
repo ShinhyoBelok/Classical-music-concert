@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300;1,700&display=swap" rel="stylesheet">  <title>Chopin Concert</title>
+</head>
+<body class="d-flex flex-column" id="home">
+  <header class="menu">
+    <nav class="menu-btn">
+      <div class="menu-btn__burger"></div>
+    </nav>
+    <nav>
+      <section class="menu-d-items" id="dmenu-item">
+        <section class="menu-logo menu-desktop">
+          <a href="index.html"><img src="img\logo.png" alt="logo"></a>
+        </section>
+        <ul class="item">
+          <li class="nav-item-btn"><a href="about.html">About</a></li>
+          <li class="nav-item-btn"><a href="#mainProgram">Program</a></li>
+          <li class="nav-item-btn"><a href="#ticket">Ticket</a></li>
+          <li class="nav-item-btn"><a href="#partnerSection">Partners</a></li>
+          <li class="nav-item-btn"><a href="#performerSection">Performers</a></li>
+        </ul>
+      </section>
+    </nav>
+  </header>
+  <section class="intro">
+    <h2 class="h2-orange-title">"Classical Music"</h2>
+    <h1>FREDERIC CHOPIN <br>CONCERT 2023</h1>
+    <section class="detail">
+      <p>Lorem ipsum dolor sit amet, consectetur 
+        adipisicing elit. Tenetur, reprehenderit.</p>
+    </section>
+    <h2 class="date">2023.03.18(SAT) ~ 19(SUN)</h2>
+    <p class="location">@ Warsaw, Poland</p>
+  </section>
+  <div id="mainProgram" class="moveUp"></div>
+  <main class="dflex-column py-5">
+    <h2 class="white-title">Main program</h2>
+    <div class="bar"></div>
+    <section class="program">
+      <article>
+        <img src="img\G key.png" alt="pic">
+        <h3 class="program-titles">Opening</h3>
+        <p>Opening of the event with the presentation of the performers Lorem ipsum 
+          dolor sit amet consectetur adipisicing.
+        </p>
+      </article>
+      <article>
+        <img src="img\piece.png" alt="pic">
+        <h3 class="program-titles">Nocture op</h3>
+        <p>A devastating melody that lures you in at pianissimo, 
+          and one most likely recognised for its use in 
+          Roman Polanski’s The Pianist.
+        </p>
+      </article>
+      <article>
+        <img src="img\piece.png" alt="pic">
+        <h3 class="program-titles">Fantaisie-Impromptu</h3>
+        <p>The posthumously published Fantaisie-Impromptu is one 
+          of Chopin’s most ostentatiously improvised works, and a 
+          fantastic show piece for the piano.
+        </p>
+      </article>
+      <article>
+        <img src="img\piece.png" alt="pic">
+        <h3 class="program-titles">24 Preludes</h3>
+        <p>Each prelude contains a unique idea or feeling, from 
+          the pianistic precipitation in ‘Raindrop’ to the haunting 
+          E minor prelude, which was played at Chopin’s own funeral.
+        </p>
+      </article>
+      <article>
+        <img src="img\F key.png" alt="pic">
+        <h3 class="program-titles">Closing</h3>
+        <p>Closing and presentation of the band, Lorem ipsum dolor 
+          sit amet consectetur adipisicing elit. Ut, blanditiis!
+        </p>
+      </article>
+    </section>
+    <div id="ticket" class="moveUp"></div>
+    <a href="#">
+      <button type="button" class="join mobile-mode">Get a Ticket</button>
+    </a>
+  </main>
+  <div id="performerSection" class="moveUp"></div>
+  <section class="performers-and-pieces">
+    <h2 class="performers-and-pieces-title">Performers</h2>
+    <div class="bar"></div>
+    <ul class="performers gap-5"></ul>
+    <button type="button" class="d-flex justify-content-center align-items-center gap-2 more" id="more">
+      <p class="m-0">MORE</p>
+      <i class="arrow down" id="arrow"></i>
+    </button>
+  </section>
+  <section class="partner dflex-column" id="partnerSection">
+    <h2 class="performers-and-pieces-title" id="partner">Partner</h2>
+    <div class="bar"></div>
+    <ul class="d-flex">
+      <li>Kultura Dostepna</li>
+      <li>TFCI</li>
+      <li>Google</li>
+      <li>STEANWAY LYNGDORF</li>
+    </ul>
+  </section>
+  <footer class="dflex-column flex-row align-items-center justify-content-center p-3 gap-3">
+    <img src="img\logo.png" alt="logo" width="250px">
+    <p>1830 Concert Chopin <br> Some Right Reserved.</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>

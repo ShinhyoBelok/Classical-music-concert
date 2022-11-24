@@ -1,16 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Chopin Concerts
 
-> This project is the main page of a portfolio in mobile version first.
+> This project is a website for the Chopin concerts, perform by a lot of professional pianist, you will be able to see all the information for a concert that will be taking place in 2023.03.18 - 19, from the performers to the pieces.
 
 ## Built With
 
-- html, css
+- html, css and javaScript
 
 ## Live Demo
 
-[Live Demo Link](https://shinhyobelok.github.io/Portfolio-setup-and-mobile-first/)
+[Live Demo Link](https://shinhyobelok.github.io/M1_final_capstone/)
 
 ## Authors
 
@@ -22,7 +22,11 @@
 
 ## Loom walkthrough
 
-- Loom: [Video](https://www.loom.com/share/cde4b01575864848a53fce6cfddafeb3)
+- Loom: [Video](https://www.loom.com/share/7dd991911aae4207bddd71d1b42e2043)
+
+## 🙏 Acknowledgments
+
+I would like to thank [Cindy Shin in Behance](https://www.behance.net/adagio07) for the original design.
 
 ## 🤝 Contributing
 
