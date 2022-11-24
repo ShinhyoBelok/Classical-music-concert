@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Chopin Concerts
 
-> This project is a website for the Chopin concerts, perform by a lot of professional pianist.
+> This project is a website for the Chopin concerts, perform by a lot of professional pianist, you will be able to see all the information for a concert that will be taking place in 2023.03.18 - 19, from the performers to the pieces.
 
 ## Built With
 
@@ -22,7 +22,7 @@
 
 ## Loom walkthrough
 
-- Loom: [Video]()
+- Loom: [Video](https://www.loom.com/share/7dd991911aae4207bddd71d1b42e2043)
 
 ## 🤝 Contributing
 
