@@ -302,10 +302,6 @@ main a {
   display: none;
 }
 
-.desktop-mode {
-  display: none;
-}
-
 .menu-d-items a {
   list-style: none;
   text-decoration: none;
@@ -422,10 +418,6 @@ main a {
 
   .performers li {
     width: 46%;
-  }
-
-  .desktop-mode {
-    display: flex;
   }
 
   .mobile-mode {
