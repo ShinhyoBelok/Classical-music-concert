@@ -136,7 +136,10 @@ main {
 }
 
 .program {
+  display: flex;
+  flex-direction: column;
   gap: 12px;
+  margin-bottom: 24px;
 }
 
 .bar {
@@ -147,13 +150,14 @@ main {
   margin-bottom: 24px;
 }
 
-.program li {
+.program article {
   box-sizing: border-box;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
   gap: 24px;
+  border: 2px solid #3c3f47;
 }
 
 .img-container img {
@@ -166,11 +170,11 @@ main {
   width: 60%;
 }
 
-.program li img {
+.program article img {
   max-width: 15%;
 }
 
-.program li h3 {
+.program article h3 {
   text-align: center;
   font-size: 16px;
   font-weight: 900;
@@ -183,7 +187,7 @@ main {
   font-size: 25px;
 }
 
-.program li p {
+.program article p {
   width: 70%;
 }
 
@@ -341,7 +345,7 @@ main a {
   top: 0;
 }
 
-.program li:hover {
+.program article:hover {
   border-color: white;
 }
 
@@ -394,17 +398,15 @@ main a {
     flex-direction: row;
   }
 
-  .program li {
+  .program article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-sizing: border-box;
-    border: 2px solid #3c3f47;
   }
 
-  .program li h3 {
+  .program article h3 {
     width: auto;
   }
 
