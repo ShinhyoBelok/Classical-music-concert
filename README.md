@@ -10,7 +10,7 @@ This project is a website for the Chopin concerts, perform by a lot of professio
 
 ## Live Demo
 
-[Live Demo Link](https://shinhyobelok.github.io/M1_final_capstone/)
+[Live Demo Link](https://shinhyobelok.github.io/Classical-music-concert/)
 
 ## Authors
 
